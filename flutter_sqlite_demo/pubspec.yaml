@@ -1,0 +1,22 @@
+name: flutter_sqlite_demo
+description: Aplikasi catatan dengan SQLite (Praktikum 2 Pemrograman Mobile).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  sqflite_common_ffi: ^2.4.4
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
